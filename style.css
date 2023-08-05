@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+.red{
+  background: #f00;
+  width: 400px;
+  height: 100px;
+}
+
+.green{
+  background-color: #00ff1a;
+  width: 150px;
+  height: 250px;
+  float: left;
+}
+
+.blue{
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+
+.pe{
+  float: left;
+}
+
+.yellow{
+  background-color: #ffe600;
+  width: 400px;
+  height: 100px;
+}
+
+.clearfix::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.purple{
+  background-color: #cc00bd;
+  height: 50px;
+  width: 150px;
+}
+
+.emerald{
+  background-color: #0093b7;
+  height: 100px;
+  width: 150px;
+}
+
+.orenge{
+  background-color: #ff9e6b;
+  height: 150px;
+  width: 100px;
+  float: left;
+}
+
+.brown{
+  background-color: #8c2727;
+  height: 250px;
+  width: 400px;
+}
+
+.cfix::after{
+  content:"";
+  display: block;
+  clear: left;
+}
